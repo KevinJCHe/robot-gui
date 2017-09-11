@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>Form</class>
+  <widget class="QWidget" name="Form">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>400</width>
+        <height>300</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>Form</string>
+    </property>
+
+   <!--//////////////////////////////////////////////////////////FOOD/RECIPE PAGE/////////////////////////////////////////////////////-->
+    <widget class="QPushButton" name="Back">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>250</width>
+				<height>75</height>
+			</rect>
+		</property>
+		<property name="text">
+			<string>Back</string>
+	  </property>
+	</widget>
+	<layout class="QHBoxLayout" name="Row">
+		<item>
+			<widget class="QPushButton" name="Food">
+				<property name="text">
+					<string>Food</string>
+			  </property>
+			</widget>
+		</item>
+		<item>
+			<widget class="QPushButton" name="Recipe">
+				<property name="text">
+					<string>Recipe</string>
+				</property>
+			</widget>
+		</item>
+	</layout>
+    <!--////////////////////////////////////////////////////////////FOOD/RECIPE PAGE//////////////////////////////////////////////////-->
+
+  </widget>
+  <resources/>
+  <connections/>
+</ui>

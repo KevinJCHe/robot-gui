@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>Form</class>
+  <widget class="QWidget" name="Form">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>400</width>
+        <height>300</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>Form</string>
+    </property>
+
+   <!--//////////////////////////////////////////////////////////Dairy PAGE/////////////////////////////////////////////////////-->
+    <widget class="QPushButton" name="Back">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>250</width>
+				<height>75</height>
+			</rect>
+		</property>
+		<property name="text">
+			<string>Back</string>
+	  </property>
+	</widget>
+	<layout class="QVBoxLayout" name="verticalLayout">
+		<property name="spacing"><!--spacing of the items!-->
+			<number>20</number>
+		</property>
+		<property name="margin"><!--margin of entire thing!-->
+			<number>100</number>
+		</property>
+		<item>
+			<layout class="QHBoxLayout" name="TopRow">
+				<item>
+					<widget class="QPushButton" name="Egg">
+						<property name="text">
+							<string>Egg</string>
+					  </property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="Milk">
+						<property name="text">
+							<string>Milk</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="Butter">
+						<property name="text">
+							<string>Butter</string>
+					  </property>
+					</widget>
+				</item>
+			</layout>
+		</item>
+		<item>
+			<layout class="QHBoxLayout" name="BottomRow">
+				<item>
+					<widget class="QPushButton" name="Cheese">
+						<property name="text">
+							<string>Cheese</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="Yogurt">
+						<property name="text">
+							<string>Yogurt</string>
+						</property>
+					</widget>
+				</item>
+			</layout>
+		</item>
+	</layout>
+    <!--////////////////////////////////////////////////////////////Dairy PAGE//////////////////////////////////////////////////-->
+
+
+  </widget>
+  <resources/>
+  <connections/>
+</ui>

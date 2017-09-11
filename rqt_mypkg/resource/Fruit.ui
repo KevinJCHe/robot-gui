@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>Form</class>
+  <widget class="QWidget" name="Form">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>400</width>
+        <height>300</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>Form</string>
+    </property>
+
+   <!--///////////////////////////////////////////////////////Dairy PAGE///////////////////////////////////////////////-->
+
+	<layout class="QVBoxLayout" name="verticalLayout">
+		<property name="spacing"><!--spacing of the items!-->
+			<number>30</number>
+		</property>
+
+		<item>
+			<widget class="QLineEdit" name="Keyword_Search">
+				<property name="text">
+					<string/>
+				</property>
+			</widget>
+		</item>
+		
+		<item>
+			<widget class="QLabel" name="Food_Category">
+				<property name="text">
+					<string>Fruit</string>
+			  </property>
+			</widget>
+		</item>
+
+		<item>
+			<layout class="QHBoxLayout" name="TopRow">
+				<item>
+					<widget class="QPushButton" name="Red">
+						<property name="text">
+							<string>Red</string>
+					  </property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="Purple_Black">
+						<property name="text">
+							<string>Purple / Black</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="Green">
+						<property name="text">
+							<string>Green</string>
+					  </property>
+					</widget>
+				</item>
+			</layout>
+		</item>
+		<item>
+			<layout class="QHBoxLayout" name="BottomRow">
+				<item>
+					<widget class="QPushButton" name="Yellow">
+						<property name="text">
+							<string>Yellow</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="Orange">
+						<property name="text">
+							<string>Orange</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="Blue_Pink">
+						<property name="text">
+							<string>Blue / Pink</string>
+						</property>
+					</widget>
+				</item>
+			</layout>
+		</item>
+	</layout>
+
+	<widget class="QPushButton" name="Back">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>250</width>
+				<height>75</height>
+			</rect>
+		</property>
+		<property name="text">
+			<string>Back</string>
+	  </property>
+	</widget>
+
+    <!--////////////////////////////////////////////////////////////Dairy PAGE////////////////////////////////////////-->
+
+
+  </widget>
+  <resources/>
+  <connections/>
+</ui>

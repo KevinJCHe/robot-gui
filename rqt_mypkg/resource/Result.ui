@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+	<class>Form</class>
+	<widget class="QWidget" name="Form">
+		<property name="geometry">
+		  <rect>
+		    <x>0</x>
+		    <y>0</y>
+		    <width>400</width>
+		    <height>300</height>
+		  </rect>
+		</property>
+		<property name="windowTitle">
+		  <string>Form</string>
+		</property>
+		<!--////////////////////////////////////////////////////////////RESULT PAGE////////////////////////////////////////////////////-->
+
+		<layout class="QVBoxLayout" name="Vertical_Column">
+					
+			<property name="spacing"><!--spacing of the items!-->
+				<number>20</number>
+			</property>
+					
+			<item>
+				<widget class="QLabel" name="Result">
+					<property name="text">
+						<string>Result (Top 3)</string>
+					</property>
+				</widget>
+			</item>
+
+			<item>
+				<layout class="QHBoxLayout" name="Result_Row">
+
+					<property name="spacing"><!--spacing of the items!-->
+						<number>20</number>
+					</property>
+
+					<item>
+						<layout class="QVBoxLayout" name="Result_1">
+							<item>
+								<widget class="QLabel" name="Result_1_Label">
+									<property name="text">
+										<string>Result 1</string>
+									</property>
+								</widget>
+							</item>
+							<item>
+								<widget class="QPushButton" name="Pic_Result_1">
+								</widget>
+							</item>
+						</layout>
+					</item>
+					<item>
+						<layout class="QVBoxLayout" name="Result_2">
+							<item>
+								<widget class="QLabel" name="Result_2_Label">
+									<property name="text">
+										<string>Result 2</string>
+									</property>
+								</widget>
+							</item>
+							<item>
+								<widget class="QPushButton" name="Pic_Result_2">
+								</widget>
+							</item>
+						</layout>
+					</item>
+					<item>
+						<layout class="QVBoxLayout" name="Result_3">
+							<item>
+								<widget class="QLabel" name="Result_3_Label">
+									<property name="text">
+										<string>Result 3</string>
+									</property>
+								</widget>
+							</item>
+							<item>
+								<widget class="QPushButton" name="Pic_Result_3">
+								</widget>
+							</item>
+						</layout>
+					</item>
+				</layout>
+			</item>
+
+			<item>
+				<widget class="QLabel" name="Recommended_Recipe">
+					<property name="text">
+						<string>Recommended Recipe</string>
+					</property>
+				</widget>
+			</item>
+
+			<item>
+				<layout class="QHBoxLayout" name="Recipe_Row">
+					<item>
+						<widget class="QPushButton" name="Recommended_Recipe_Pic_1">
+						</widget>
+					</item>
+					<item>
+						<widget class="QPushButton" name="Recommended_Recipe_Pic_2">
+						</widget>
+					</item>
+					<item>
+						<widget class="QPushButton" name="Recommended_Recipe_Pic_3">
+						</widget>
+					</item>
+				</layout>
+			</item>
+
+		</layout>
+
+		<widget class="QPushButton" name="Back"><!--placing this here instead of at the top allows it to appear in front of the layout-->
+			<property name="geometry">
+				<rect>
+					<x>0</x>
+					<y>0</y>
+					<width>250</width>
+					<height>75</height>
+				</rect>
+			</property>
+			<property name="text">
+				<string>Back</string>
+		 	</property>
+		</widget>
+
+	</widget>
+  	<resources/>
+  	<connections/>
+</ui>

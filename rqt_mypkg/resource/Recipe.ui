@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+	<class>Form</class>
+	<widget class="QWidget" name="Form">
+		<property name="geometry">
+		  <rect>
+		    <x>0</x>
+		    <y>0</y>
+		    <width>400</width>
+		    <height>300</height>
+		  </rect>
+		</property>
+		<property name="windowTitle">
+		  <string>TangyGui</string>
+		</property>
+
+	<!--////////////////////////////////////////////////////////////RECIPE PAGE//////////////////////////////////////////////////////-->
+	   	<widget class="QPushButton" name="Back">
+			<property name="geometry">
+				<rect>
+					<x>0</x>
+					<y>0</y>
+					<width>250</width>
+					<height>75</height>
+				</rect>
+			</property>
+			<property name="text">
+				<string>Back</string>
+		 	</property>
+		</widget>
+		<layout class="QHBoxLayout" name="THE_ROW">
+			<item>
+				<layout class="QVBoxLayout" name="Prev_Freq_Column">
+					
+					<property name="spacing"><!--spacing of the items!-->
+						<number>20</number>
+					</property>
+					
+					<item>
+						<widget class="QLabel" name="Prev_Freq">
+							<property name="text">
+								<string>Previous/Frequented</string>
+							</property>
+						</widget>
+					</item>
+
+					<item>
+						<layout class="QGridLayout" name="Recipe_Grid_1">
+							<item row="0" column="0">
+								<widget class="QPushButton" name="Recipe_Title_1">
+									<property name="text">
+										<string>Recipe_1</string>
+								  	</property>
+								</widget>
+							</item>
+							<item row="0" column="1">
+								<widget class="QLabel" name="Recipe_Pic_1">
+								</widget>
+							</item>
+							<item row="1" column="0">
+								<widget class="QPushButton" name="Recipe_Title_2">
+									<property name="text">
+										<string>Recipe_2</string>
+								  	</property>
+								</widget>
+							</item>
+							<item row="1" column="1">
+								<widget class="QLabel" name="Recipe_Pic_2">
+								</widget>
+							</item>
+						</layout>
+					</item>
+
+				</layout>
+			</item>
+			<item>
+				<widget class="Line" name="line_2"><!--Displays a line for separation!-->
+					<property name="orientation">
+						<enum>Qt::Vertical</enum>
+					</property>
+				</widget>
+			</item>
+			<item>
+				<layout class="QVBoxLayout" name="Recom_column">
+
+					<property name="spacing"><!--spacing of the items!-->
+						<number>20</number>
+					</property>
+					
+					<item>
+						<widget class="QLabel" name="Recommended">
+							<property name="text">
+								<string>Recommended</string>
+							</property>
+						</widget>
+					</item>
+
+					<item>
+						<layout class="QGridLayout" name="Recipe_Grid_2">
+							<item row="0" column="0">
+								<widget class="QPushButton" name="Recipe_Title_3">
+									<property name="text">
+										<string>Recipe_3</string>
+								  	</property>
+								</widget>
+							</item>
+							<item row="0" column="1">
+								<widget class="QLabel" name="Recipe_Pic_3">
+								</widget>
+							</item>
+							<item row="1" column="0">
+								<widget class="QPushButton" name="Recipe_Title_4">
+									<property name="text">
+										<string>Recipe_4</string>
+								  	</property>
+								</widget>
+							</item>
+							<item row="1" column="1">
+								<widget class="QLabel" name="Recipe_Pic_4">
+								</widget>
+							</item>
+						</layout>
+					</item>
+
+				</layout>
+			</item>
+		</layout>
+	<!--/////////////////////////////////////////////////////////////RECIPE PAGE///////////////////////////////////////////////////////-->
+	</widget>
+  	<resources/>
+  	<connections/>
+</ui>

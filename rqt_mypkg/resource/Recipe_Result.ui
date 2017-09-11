@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+	<class>Form</class>
+	<widget class="QWidget" name="Form">
+		<property name="geometry">
+		  <rect>
+		    <x>0</x>
+		    <y>0</y>
+		    <width>400</width>
+		    <height>300</height>
+		  </rect>
+		</property>
+		<property name="windowTitle">
+		  <string>Form</string>
+		</property>
+		<!--///////////////////////////////////////////////////////////FOOD PAGE////////////////////////////////////////////////////-->
+
+		<layout class="QVBoxLayout" name="Recipe_Result_Column">
+					
+			<property name="spacing"><!--spacing of the items!-->
+				<number>40</number>
+			</property>
+					
+			<item>
+				<widget class="QLabel" name="Recipe_Title">
+					<property name="text">
+						<string>Recipe Title</string>
+					</property>
+				</widget>
+			</item>
+
+			<item>
+				<layout class="QHBoxLayout" name="Recipe_Result_Row">
+					<item>
+						<widget class="QLabel" name="Recipe_Picture">
+						</widget>
+					</item>
+					<item>
+						<widget class="QLabel" name="Recipe_Ingredient">
+						</widget>
+					</item>
+				</layout>
+			</item>
+
+			<item>
+				<widget class="QPushButton" name="Buy_Recipe">
+					<property name="text">
+						<string>Buy All The Recipe Ingredients</string>
+					</property>
+				</widget>
+			</item>
+
+		</layout>
+
+		<widget class="QPushButton" name="Back">
+			<property name="geometry">
+				<rect>
+					<x>0</x>
+					<y>0</y>
+					<width>250</width>
+					<height>75</height>
+				</rect>
+			</property>
+			<property name="text">
+				<string>Back</string>
+		 	</property>
+		</widget>
+	</widget>
+  	<resources/>
+  	<connections/>
+</ui>
